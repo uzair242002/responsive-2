@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 90vh;
+    width: 99vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between ;
+    padding: 10vh 20vw 0px 0px;
+}
+.left
+{
+    margin-left: 5vw;
+    height: 90vh;
+    width: 80vh;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+.left h1{
+    font-size:10vh ;
+    font-weight: 500;
+    line-height: 120px;
+}
+.bottom-left{
+   
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.color{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.color1{
+    height:20px;
+    width:20px;
+    background-color: rgb(251, 0, 0);
+    border-radius: 50%;
+    margin: 1px;
+}
+.color2{
+    height:20px;
+    width: 20px;
+    background-color: rgb(8, 3, 3);
+    border-radius: 50%;
+    margin: 1px;
+}
+.left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.left p{
+    font-size: 1vw;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.right
+{
+    position: relative;
+    height: 90vh;
+    width: 40vw;
+    background-color: rgb(255, 250, 250);
+}
+.right-top{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-top h4{
+    font-size: 5vh;
+    font-weight: 600;
+    padding-right: 20px;
+
+}
+.right-top h5{
+    font-size: 5vh;
+    font-weight: 600;
+    
+}
+.right-top i{
+    font-size: 20px;
+    font-weight: 600;
+    color: yellow;
+}
+.right-img{
+    width: 100%;
+    background-color: rgb(145, 248, 11);
+    height: 38vw;
+    background-image: url(https://images.unsplash.com/photo-1735657061774-a9d62d06c954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.black{
+    color: #ffffff;
+    background-color: #000;
+    padding: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+#rotated{
+    position: absolute;
+    left: -8vw;
+    bottom: 20vh;
+    background-color: rgb(255, 255, 255);
+    rotate: -90deg;
+}
+
+@media (max-width: 700px){
+    .main{
+        height: 90vh;
+        width: 99vw;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: space-between ;
+        padding: 10vh 20vw 0px 0px;
+    }
+    .right-img{
+        position: relative;
+     margin-top: 59vh;
+        width: 90vw;
+        left: -45vw;
+
+        background-color: rgb(0, 0, 0);
+        height: 50vw;
+        background-image: url(https://images.unsplash.com/photo-1735657061774-a9d62d06c954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D);
+    
+      
+}
+.right
+{
+    position: relative;
+    height: 90vh;
+    width: 40vw;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0%;
+    margin-left: 0;
+    
+}
+.right-top h4{
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 20px;
+    position: relative;
+   top: 90vh;
+   right: 50vw;
+
+
+}
+.right-top h5{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    top: 92vh;
+    left: 0%;
+   
+}
+.black{
+    color: #ffffff;
+    background-color: #000;
+    padding: 20px;
+    border-radius: 50%;
+ 
+    top: 60vh;
+    left: 40vw;
+}
+.left
+{
+    margin-left: 5vw;
+    height: 50vh;
+    width: 80vh;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+#rotated{
+   
+    left: -70vw;
+    top: 75vh;
+    width: fit-content;
+    height: fit-content;
+    rotate: -90deg;
+font-size: 5vw;
+}
+.left p{
+    font-size: 1.5vw;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+}
